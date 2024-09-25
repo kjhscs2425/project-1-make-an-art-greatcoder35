@@ -1,5 +1,6 @@
 import turtle
 from turtle import (right, left, forward, backward, speed, exitonclick, penup, pendown)
+# scale = scale for image
 # x = cube length
 # y = turn (45 degree increments)
 # z = diagnol cube length
@@ -7,7 +8,9 @@ scale=1
 x=100*scale
 y=45
 z=71*scale
-
+# cube1 = base cube
+# cube2 = cube1, but 1 line of code is changed
+# reset = reset position from end of cube to beginning of cube
 def cube1 ():
     for i in range(4):
         forward(x)
