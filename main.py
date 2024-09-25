@@ -3,7 +3,7 @@ from turtle import (right, left, forward, backward, speed, exitonclick, penup, p
 # scale = scale for image
 # x = cube length
 # y = turn (45 degree increments)
-# z = diagonal cube length
+# z = diagonol cube length
 scale=1
 x=100*scale
 y=45
@@ -38,6 +38,12 @@ def cube (offset):
     forward(x)
     left(3*y)
     forward(z)
+def nose(loops, distance, angle):
+  for i in range(loops):
+    for _ in range(2):
+      length = i*distance
+      turtle.forward(length)
+      turtle.left(angle)
 def reset ():
     right(y*4)
     forward(z)
@@ -101,9 +107,19 @@ forward(x)
 right(2*y)
 cube(0)
 reset()
+#nose prep
 penup()
 right(2*y)
 forward(x)
+right(2*y)
+forward(1.25*x)
+left(2*y)
+forward(0.5*x)
+#nose
+pendown()
+nose(50,1,90)
+#done
+penup()
 left(2*y)
 forward(10*x)
 
