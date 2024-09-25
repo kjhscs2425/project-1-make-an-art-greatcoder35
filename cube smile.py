@@ -3,7 +3,7 @@ from turtle import (right, left, forward, backward, speed, exitonclick, penup, p
 # scale = scale for image
 # x = cube length
 # y = turn (45 degree increments)
-# z = diagnol cube length
+# z = diagonol cube length
 scale=1
 x=100*scale
 y=45
