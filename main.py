@@ -112,7 +112,7 @@ penup()
 right(2*y)
 forward(x)
 right(2*y)
-forward(1.25*x)
+forward(1.5*x)
 left(2*y)
 forward(0.5*x)
 #nose
