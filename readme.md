@@ -15,5 +15,4 @@ each cube
 the cubes
 
 5. How could you use a loop variable of a for loop? Is there somewhere in your drawing where something is repeated, but it's slightly different each time? Maybe the same object is repeated in different places, or maybe a similar object is repeated but with different sizes?
-
-
+the nose of the face (square loop)

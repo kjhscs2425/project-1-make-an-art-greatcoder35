@@ -9,7 +9,7 @@ x=100*scale
 y=45
 z=71*scale
 # cube1 = base cube
-# cube2 = cube1, but 1 line of code is changed
+# nose = nose spiral/loop
 # reset = reset position from end of cube to beginning of cube
 def cube (offset):
     for i in range(4):
@@ -38,7 +38,7 @@ def cube (offset):
     forward(x)
     left(3*y)
     forward(z)
-def nose(loops, distance, angle):
+# def nose(loops, distance, angle):
   for i in range(loops):
     for _ in range(2):
       length = i*distance
@@ -107,17 +107,17 @@ forward(x)
 right(2*y)
 cube(0)
 reset()
-#nose prep
-penup()
-right(2*y)
-forward(x)
-right(2*y)
-forward(1.5*x)
-left(2*y)
-forward(0.5*x)
-#nose
-pendown()
-nose(50,1,90)
+# # # nose prep
+# penup()
+# right(2*y)
+# forward(x)
+# right(2*y)
+# forward(1.5*x)
+# left(2*y)
+# forward(0.5*x)
+# # # nose
+# pendown()
+# nose(50,1,90)
 #done
 penup()
 left(2*y)
