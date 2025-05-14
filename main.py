@@ -39,11 +39,11 @@ def cube (offset):
     left(3*y)
     forward(z)
 # def nose(loops, distance, angle):
-  for i in range(loops):
-    for _ in range(2):
-      length = i*distance
-      turtle.forward(length)
-      turtle.left(angle)
+#   for i in range(loops):
+#     for _ in range(2):
+#       length = i*distance
+#       turtle.forward(length)
+#       turtle.left(angle)
 def reset ():
     right(y*4)
     forward(z)
